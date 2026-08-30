@@ -1,4 +1,4 @@
-package main
+package banking
 
 type Bank struct {
 	Users []Account `json: "users`

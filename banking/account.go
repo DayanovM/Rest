@@ -1,4 +1,4 @@
-package main
+package banking
 
 type Account struct {
 	Username string `json: "username"`

@@ -30,3 +30,21 @@ func (h *HTTPHandlers) HandleCreateAccount(w http.ResponseWriter, r *http.Reques
 
 	*/
 }
+
+func (h *HTTPHandlers) HandleDeposit(w http.ResponseWriter, r *http.Request) {
+	/*
+	   	pattern: /tasks/{title}
+
+	   method: PATCH
+	   info: JSON HTTP request body
+
+	   succeed:
+	   - status code: 201 created
+	   - response: JSON with Account
+
+	   failed:
+	   - status code: 400, 409, 500
+	   - response: JSON with error + time
+
+	*/
+}

@@ -1,4 +1,4 @@
-package main
+package banking
 
 import "errors"
 
